@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'style-letra';
+    src: url('assets/fonts/Nadine.ttf');
+}
+
+body {
+    overflow: hidden;
+}
+
+.letraPrincipal{
+    font-family: 'style-letra';
+
+}

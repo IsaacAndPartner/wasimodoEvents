@@ -1,0 +1,47 @@
+<section>
+    <div class="box">
+        <div class="container-log">
+            <div class="form">
+                <h2>Registra tu eventos</h2>
+                <form [formGroup]="eventoForm" (ngSubmit)="crearEvento()" >
+                    <div class="inputBox">
+                        <input type="email" formControlName="nombre" placeholder="nombre">
+                    </div>
+                    <div class="inputBox">
+                        <input type="date" formControlName="fecha"  placeholder="fecha">
+                    </div>
+                    <div class="inputBox">
+                        <input type="" formControlName="hora"  placeholder="hora">
+                    </div>
+                    <div class="inputBox">
+                        <input type="" formControlName="lugar"  placeholder="lugar">
+                    </div>
+                    <div class="inputBox">
+                        <input type="" formControlName="descripcion"  placeholder="descripción">
+                    </div>
+                    <div class="inputBox">
+                        <input type="" formControlName="imagen"  placeholder="url imagen">
+                    </div>
+                    <div class="inputBox">
+                        <input type="" formControlName="categoria"  placeholder="categoria">
+                    </div>
+                    <div class="inputBox">
+                        <label for="estado">Estado</label>
+                        <select id="estado" formControlName="estado">
+                        <option [ngValue]="false">Inactivo</option>
+                        <option [ngValue]="true">Activo</option>
+                        </select>
+                    </div>
+
+
+                    <div class="inputBox">
+                        <button class="login-buton" type="submit">
+                            <span>Registrar evento</span>
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
