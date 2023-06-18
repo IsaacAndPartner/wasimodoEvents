@@ -1,0 +1,21 @@
+node_modules/
+dist/
+
+# Archivos de configuración
+.env
+
+# Logs y archivos temporales
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.swp
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependiendo de tu estructura de proyecto, es posible que desees ignorar otros archivos o directorios específicos.
+# Por ejemplo, si tienes un directorio llamado "uploads" para almacenar archivos subidos por los usuarios:
+# /uploads
