@@ -1,50 +1,31 @@
-.cta {
-    border: none;
-    background: none;
-    padding-top: 30px;
+.img {
+    width: 400px;
+    height: 450px;
 }
 
-.cta span {
-    padding-bottom: 7px;
-    letter-spacing: 4px;
-    font-size: 20px;
-    padding-right: 15px;
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
     text-transform: uppercase;
-}
-
-.cta svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-}
-
-.cta:hover svg {
-    transform: translateX(0);
-}
-
-.cta:active svg {
-    transform: scale(0.9);
-}
-
-.hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 20px;
-}
-
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #ffffff;
     background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
 }
 
-.cta:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+button:hover {
+    background-color: #ff00fb;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
 }

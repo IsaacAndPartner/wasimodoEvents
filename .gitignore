@@ -3,6 +3,7 @@ dist/
 
 # Archivos de configuración
 .env
+.angular
 
 # Logs y archivos temporales
 logs/

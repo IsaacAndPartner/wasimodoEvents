@@ -1,40 +1,23 @@
-<section class="d-flex justify-content-center align-items-center h-100 flex-column">
 
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
 
-    <div class="myCard">
-        <div class="innerCard">
-            <div class="frontSide">
-                <p class="color"> tócame</p>
-                <img src="assets/img/gringo.jpeg" alt="gringoTusday" style="width: 100%;">
-                <p class="color">Gringo gringoTusday</p>
-            </div>
-            <div class="backSide">
-                <p class="color">Membresia VIP por toda la noche</p>
-                <button class="btn" type="button">
-                    <strong>Eventos Deportivos</strong>
-                    <div id="container-stars">
-                      <div id="stars"></div>
-                    </div>
-                  </button>
-            </div>
-        </div>
+        
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-
-    <button class="btn-menu-lateral-derecho boton my-2" routerLink="/">Todos los eventos</button>
-
-    <div class="myCard">
-        <div class="innerCard">
-            <div class="frontSide">
-                <p class="color">FRONT SIDE</p>
-                <img src="  assets/img/meting.jpeg" alt="gringoTusday" style="width: 100%;">
-                <p class="color">Hover Me</p>
-            </div>
-            <div class="backSide">
-                <p class="color">No pagas cover</p>
-                <p>Leave Me</p>
-            </div>
-        </div>
+    <div class="offcanvas-body">
+      <div>
+        <app-registroevents></app-registroevents>
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
     </div>
-
-</section>
-
+  </div>
